@@ -1,8 +1,10 @@
 import './PortfolioPage.css'
+import ItemList from '../ItemList/ItemList';
 
 const Portfolio = () => {
   return (
     <section id="portfolio" className="portfolio">
+      
       <div className="container">
         <div className="section-title">
           <h2><i className="bi bi-collection"></i></h2>
@@ -20,7 +22,10 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      <ItemList />
+
     </section>
+
   );
 }
 
