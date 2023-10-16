@@ -6,8 +6,11 @@ import Card from './components/Card/Card'
 import Portada from './components/Portada/Portada'
 import About from './components/Pages/About/About'
 import Collections from './components/Pages/Collections/Collections'
-import FAQ from './components/Pages/Faq/Faq'
+
 import Footer from './components/Footer/Footer'
+
+// Pages
+import FaqPage from './components/Pages/FaqPage/FaqPage'
 
 function App() {
   return (
@@ -20,7 +23,8 @@ function App() {
       <div>
         <Card />
       </div>
-      <FAQ />
+      <FaqPage />
+
       <Footer />
     
     </div>

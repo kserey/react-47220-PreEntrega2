@@ -1,13 +1,11 @@
-import Container from 'react-bootstrap/Container';
-
 import './Header.css'
-import NavBar from '../NavBar/NavBar';
 
 import logoImg from '../../assets/img/SIMBOLO_REDONDO.png';
-import bolsaImg from '../../assets/img/bolsa.png'
+
+import NavBar from '../NavBar/NavBar';
 import CartWidget from '../CartWidget/CartWidget';
 
-function Header() {
+const Header = () =>{
   return (
     <header id="header" className="fixed-top">
 
