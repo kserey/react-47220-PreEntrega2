@@ -5,6 +5,7 @@ import NavBar from '../NavBar/NavBar';
 
 import logoImg from '../../assets/img/SIMBOLO_REDONDO.png';
 import bolsaImg from '../../assets/img/bolsa.png'
+import CartWidget from '../CartWidget/CartWidget';
 
 function Header() {
   return (
@@ -15,10 +16,7 @@ function Header() {
           <img src={logoImg} alt="logo Selva de Papel" className="logo-img" />
         </a>
         <NavBar />
-        {/* <a href="bolsa.html"> */}
-          <img src={bolsaImg} alt="bolsa de compras" className="bolsa-img" />
-          <span className="bolsaCant">0</span>
-        {/* </a> */}
+        <CartWidget />
       </div>
 
     </header>
