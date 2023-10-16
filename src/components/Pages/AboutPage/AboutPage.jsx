@@ -1,6 +1,6 @@
-import '../About/About.css'
+import './AboutPage.css'
 
-const About = () => {
+const AboutPage = () => {
   return (
 
     <section id="about" className="about">
@@ -47,4 +47,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutPage

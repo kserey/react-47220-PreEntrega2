@@ -1,5 +1,5 @@
 import './PortfolioPage.css'
-import ItemList from '../ItemList/ItemList';
+import ItemList from '../../ItemList/ItemList'
 
 const Portfolio = () => {
   return (
@@ -12,7 +12,7 @@ const Portfolio = () => {
         </div>
         <div className="row">
           <div className="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
+            <ul id="portfolio-filters">
               <li data-filter="*" className="filter-active">Todos</li>
               <li data-filter=".filter-app">Office</li>
               <li data-filter=".filter-card">Adventure</li>
